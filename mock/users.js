@@ -10,4 +10,9 @@ export default {
     );
     res.send(hero);
   },
+  '/api/cards': {
+    id: 1,
+    setup: 'Did you hear about the two silk worms in a race?',
+    punchline: 'It ended in a tie',
+  },
 };

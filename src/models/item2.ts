@@ -65,7 +65,7 @@ const item2Model: item2ModelType = {
   subscriptions: {
     setup({ dispatch, history }) {
       history.listen(({ pathname }) => {
-        if (pathname === '/item2') {
+        if (pathname === '/dashboard/item2') {
           dispatch({ type: 'fetch' });
         }
       });
