@@ -5,4 +5,8 @@ export default defineConfig({
     type: 'none',
     exclude: [],
   },
+  // FIXME: 不生效
+  theme: {
+    '@primary-color': '#ff0',
+  },
 });
