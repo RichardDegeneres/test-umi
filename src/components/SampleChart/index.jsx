@@ -5,10 +5,7 @@ import React, { PureComponent } from 'react';
 import { Chart } from '@antv/g2';
 
 class SampleChart extends PureComponent {
-  constructor(props) {
-    super(props);
-    this.containerRef = React.createRef();
-  }
+  containerRef = React.createRef();
 
   componentDidMount() {
     this.chart = new Chart({
