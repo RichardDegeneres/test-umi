@@ -7,6 +7,7 @@ import {
   SmileOutlined,
   SmileTwoTone,
   OrderedListOutlined,
+  PictureOutlined,
 } from '@ant-design/icons';
 import { Link } from 'umi';
 
@@ -64,6 +65,12 @@ function BasicLayout(props: any) {
               <Link to="/puzzlecards">
                 <OrderedListOutlined />
                 puzzlecards
+              </Link>
+            </Menu.Item>
+            <Menu.Item key="/graph">
+              <Link to="/graph">
+                <PictureOutlined />
+                graph
               </Link>
             </Menu.Item>
           </Menu>
